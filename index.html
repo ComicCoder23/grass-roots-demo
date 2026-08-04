@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grass Roots Gardening — Local Garden Care, Kirkintilloch</title>
+<meta name="description" content="Friendly local gardener in Kirkintilloch. Lawn cutting, hedge trimming, garden tidy-ups. Call or WhatsApp 07700 900 123.">
+<style>
+  :root{
+    --green-900:#173f24; --green-700:#1f5c32; --green-600:#2a7a43;
+    --green-100:#e7f0e9; --cream:#faf8f2; --ink:#1d2a20; --muted:#5a6b5e;
+    --accent:#d9a441;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--cream);line-height:1.6}
+  .demo-note{background:#222;color:#cfcfcf;text-align:center;font-size:.72rem;padding:.35rem .5rem;font-family:Arial,sans-serif}
+  header{background:var(--cream);border-bottom:1px solid #e2ddd0;position:sticky;top:0;z-index:10}
+  .bar{max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:.7rem 1rem}
+  .brand{display:flex;align-items:center;gap:.55rem;font-weight:700;font-size:1.05rem;color:var(--green-900)}
+  .leaf{width:34px;height:34px;border-radius:50%;background:var(--green-700);display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .leaf svg{width:18px;height:18px;fill:#fff}
+  .call-btn{background:var(--green-700);color:#fff;text-decoration:none;padding:.8rem .95rem;border-radius:8px;font-size:.9rem;font-family:Arial,sans-serif;white-space:nowrap;display:inline-block}
+  .hero{background:linear-gradient(160deg,var(--green-900) 0%,var(--green-700) 70%);color:#fff;padding:3.5rem 1rem 3rem}
+  .hero-inner{max-width:960px;margin:0 auto}
+  .hero h1{font-size:clamp(2rem,6vw,3.2rem);line-height:1.15;margin-bottom:.4rem}
+  .hero .tag{font-size:clamp(1.05rem,3vw,1.35rem);color:#dceadf;margin-bottom:1.2rem}
+  .hero p.lead{max-width:34rem;color:#e9f1ea;margin-bottom:1.6rem;font-family:Arial,sans-serif;font-size:.98rem}
+  .cta-row{display:flex;gap:.7rem;flex-wrap:wrap}
+  .btn{display:inline-block;text-decoration:none;padding:.8rem 1.3rem;border-radius:10px;font-family:Arial,sans-serif;font-weight:600;font-size:.95rem}
+  .btn-wa{background:#25d366;color:#083b1d}
+  .btn-ghost{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.45)}
+  section{padding:2.8rem 1rem}
+  .wrap{max-width:960px;margin:0 auto}
+  h2{color:var(--green-900);font-size:clamp(1.5rem,4vw,2rem);margin-bottom:1.3rem}
+  .prices{background:#fff}
+  table{width:100%;border-collapse:collapse;font-family:Arial,sans-serif;font-size:.95rem;background:#fff;border:1px solid #e2ddd0;border-radius:10px;overflow:hidden}
+  th,td{text-align:left;padding:.85rem 1rem;border-bottom:1px solid #eee8da}
+  th{background:var(--green-100);color:var(--green-900);font-size:.85rem;letter-spacing:.03em;text-transform:uppercase}
+  tr:last-child td{border-bottom:none}
+  td.price{font-weight:700;color:var(--green-700);white-space:nowrap}
+  .offers{display:grid;gap:1rem;grid-template-columns:1fr;margin-top:1.4rem}
+  .offer{background:var(--green-100);border-left:5px solid var(--accent);border-radius:8px;padding:1rem 1.2rem;font-family:Arial,sans-serif;font-size:.92rem}
+  .offer b{color:var(--green-900);display:block;margin-bottom:.15rem;font-size:1rem}
+  .svc{display:grid;gap:1rem;grid-template-columns:1fr}
+  .card{background:#fff;border:1px solid #e2ddd0;border-radius:10px;padding:1.2rem 1.2rem}
+  .card h3{color:var(--green-900);margin-bottom:.3rem;font-size:1.05rem}
+  .card p{font-family:Arial,sans-serif;font-size:.9rem;color:var(--muted)}
+  .about{background:#fff}
+  .about p{max-width:38rem;margin-bottom:.9rem;font-family:Arial,sans-serif;font-size:.95rem;color:#33402f}
+  .contact{background:var(--green-900);color:#fff}
+  .contact h2{color:#fff}
+  .c-grid{display:grid;gap:.9rem;grid-template-columns:1fr;font-family:Arial,sans-serif}
+  .c-item{background:rgba(255,255,255,.08);border-radius:10px;padding:1rem 1.1rem}
+  .c-item span{display:block;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:#bcd3c1;margin-bottom:.2rem}
+  .c-item a{color:#fff;text-decoration:none;font-size:1.05rem;font-weight:600;display:block;padding:.85rem 0}
+  .pay{font-size:.85rem;color:#cfe0d3;margin-top:1.1rem;font-family:Arial,sans-serif}
+  footer{background:#102b18;color:#9db5a2;text-align:center;font-size:.8rem;padding:1.3rem 1rem;font-family:Arial,sans-serif}
+  @media(min-width:640px){
+    .svc{grid-template-columns:1fr 1fr}
+    .offers{grid-template-columns:1fr 1fr}
+    .c-grid{grid-template-columns:1fr 1fr}
+  }
+</style>
+</head>
+<body>
+<div class="demo-note">DEMO BUILD — Tech Tradie Media portfolio example. Business shown is not currently trading.</div>
+<header>
+  <div class="bar">
+    <span class="brand"><span class="leaf"><svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg></span>Grass Roots Gardening</span>
+    <a class="call-btn" href="tel:+447700900123">Call 07700 900 123</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Grass Roots Gardening</h1>
+    <div class="tag">Friendly Local Gardener — Kirkintilloch</div>
+    <p class="lead">Reliable, honest garden help for lawns, hedges and tidy-ups. Serving homes within walking distance of G66 — no contracts, no fuss.</p>
+    <div class="cta-row">
+      <a class="btn btn-wa" href="https://wa.me/447700900123?text=Hi%20Jamie%2C%20I%27d%20like%20a%20quote%20for%20garden%20work">Message on WhatsApp</a>
+      <a class="btn btn-ghost" href="#prices">See Prices</a>
+    </div>
+  </div>
+</section>
+
+<section class="prices" id="prices">
+  <div class="wrap">
+    <h2>Simple, Honest Prices</h2>
+    <table>
+      <tr><th>Service</th><th>Price</th></tr>
+      <tr><td>Lawn Cutting</td><td class="price">£20 – £30+</td></tr>
+      <tr><td>Hedge Cutting</td><td class="price">From £30</td></tr>
+      <tr><td>Garden Tidy</td><td class="price">From £40</td></tr>
+      <tr><td>General Garden Work</td><td class="price">£22 per hour</td></tr>
+    </table>
+    <div class="offers">
+      <div class="offer"><b>Introductory Prices</b>Great value rates while I build reviews and reputation.</div>
+      <div class="offer"><b>Neighbour Bonus</b>Better value if multiple homes on the same street book together.</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>What I Do</h2>
+    <div class="svc">
+      <div class="card"><h3>Lawn Cutting</h3><p>Regular grass cutting and strimming. Keep your lawn neat and tidy.</p></div>
+      <div class="card"><h3>Hedge Trimming</h3><p>Hedge maintenance and shaping. Well-kept hedges year-round.</p></div>
+      <div class="card"><h3>Garden Tidy Ups</h3><p>Weeding, border tidying, and general garden maintenance.</p></div>
+      <div class="card"><h3>Seasonal Maintenance</h3><p>Leaf clearing and seasonal garden care throughout the year.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="wrap">
+    <h2>About Me</h2>
+    <p>Hi, I'm Jamie. I started Grass Roots Gardening to provide simple, reliable garden maintenance for local homes.</p>
+    <p>I'm currently building my portfolio and offering discounted work while I grow the business. You get quality garden care at great value, and I get the chance to build a track record and gather honest reviews.</p>
+    <p>It's a fair deal for both of us. You support a local business getting started, and I deliver reliable, friendly service to earn your trust.</p>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="wrap">
+    <h2>Get in Touch</h2>
+    <div class="c-grid">
+      <div class="c-item"><span>Call or text</span><a href="tel:+447700900123">07700 900 123</a></div>
+      <div class="c-item"><span>WhatsApp</span><a href="https://wa.me/447700900123?text=Hi%20Jamie%2C%20I%27d%20like%20a%20quote%20for%20garden%20work">Message on WhatsApp</a></div>
+      <div class="c-item"><span>Email</span><a href="mailto:hello@grassrootsdemo.example">hello@grassrootsdemo.example</a></div>
+      <div class="c-item"><span>Service area</span><a href="#">Central Kirkintilloch — G66 area</a></div>
+    </div>
+    <p class="pay">Payment: cash, bank transfer, PayPal or Monzo.me link.</p>
+  </div>
+</section>
+
+<footer>© 2026 Grass Roots Gardening — local garden care for Kirkintilloch. Site: a Tech Tradie Media one-page build.</footer>
+</body>
+</html>
